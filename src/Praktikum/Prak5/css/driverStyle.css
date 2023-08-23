@@ -1,0 +1,65 @@
+.card {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.cont-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+form {
+    width: 100%;
+}
+
+.container-flex {
+    flex-wrap: nowrap;
+    gap: 0.5em;
+}
+
+p {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 2%;
+}
+
+.paddress {
+    width: 71%;
+}
+
+.pprice {
+    width: 15%;
+    text-align: right;
+}
+
+.ppizza {
+    width: 96%;
+}
+
+input,
+label {
+    display: block;
+    width: 100%;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    height: 1.5em;
+    margin: 0;
+    margin-bottom: 0.5em;
+    /* padding: 0 auto; */
+}
+
+.input-wrapper {
+    width: 33%;
+}
